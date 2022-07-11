@@ -1,0 +1,27 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  box-sizing: border-box;
+  z-index: 100;
+  position: fixed;
+  background-color: aqua;
+
+  // mix-blend-mode: lighten;
+  color: white;
+
+  ul {
+    display: flex;
+
+    li {
+      margin: 0 15px;
+    }
+  }
+}
+
+// .logo {
+//   z-index: 150 !important;
+//   width: 100px !important;
+//   height: 100px !important;
+// }

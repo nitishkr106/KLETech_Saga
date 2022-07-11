@@ -1,0 +1,79 @@
+.sidebar {
+    height: 100%;
+    width: 40vw;
+    display: grid;
+    place-items: center;
+    background: white;
+    z-index: 1;
+}
+
+.box-1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #be2f14;
+    outline: 4px solid #be2f14;
+    outline-offset: 3px;
+    position: absolute;
+    left: -2%;
+    top: -10%;
+}
+
+.box-2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+    outline: 4px solid #be2f14;
+    border: 2px solid #be2f14;
+    outline-offset: 4px;
+    position: absolute;
+    left: 2.3%;
+    top: 21%;
+    z-index: -1;
+}
+
+.box-3 {
+    width: 295px;
+    height: 295px;
+    background-color: #be2f14;
+    outline: 4px solid #be2f14;
+    outline-offset: 3px;
+    position: absolute;
+    left: 28rem;
+    top: 80%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.logo {
+    height: 400px !important;
+    width: 400px !important;
+    position: absolute;
+    top: 15%;
+    object-fit: cover;
+    left: 1.5%;
+    box-shadow: none;
+    border: none;
+}
+
+.achievements {
+    grid-area: 4/1 / span 3 / span 1;
+    color: #be2f14;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 2px solid #be2f14;
+    padding: 0.8rem;
+    border-radius: 0.6em;
+    position: relative;
+    top: 1rem;
+    transition: background-color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
+.achievements:hover {
+    background-color: #be2f14;
+    color: white;
+}
